@@ -2,7 +2,6 @@
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Diagnostics.Eventing.Reader;
 
 namespace DVLD_DataAccess
 {
