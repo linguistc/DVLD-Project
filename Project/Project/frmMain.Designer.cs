@@ -72,7 +72,7 @@
             this.accountSettingsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1445, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1445, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -290,9 +290,9 @@
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = global::Project.Properties.Resources.Logo_Final;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 28);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 30);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1445, 641);
+            this.pictureBox1.Size = new System.Drawing.Size(1445, 639);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
