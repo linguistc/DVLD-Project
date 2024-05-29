@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_Business", "DVLD_Busin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_DataAccess", "DVLD_DataAccess\DVLD_DataAccess.csproj", "{5F446B5C-B6B3-4929-8F99-18514593C1EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD-DataAccess.Tests", "DVLD-DataAccess.Tests\DVLD-DataAccess.Tests.csproj", "{37C61133-1B40-44C9-A7BD-171FCE259070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5F446B5C-B6B3-4929-8F99-18514593C1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F446B5C-B6B3-4929-8F99-18514593C1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F446B5C-B6B3-4929-8F99-18514593C1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C61133-1B40-44C9-A7BD-171FCE259070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C61133-1B40-44C9-A7BD-171FCE259070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C61133-1B40-44C9-A7BD-171FCE259070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C61133-1B40-44C9-A7BD-171FCE259070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
