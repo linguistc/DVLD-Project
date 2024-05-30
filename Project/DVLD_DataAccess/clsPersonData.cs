@@ -172,7 +172,7 @@ namespace DVLD_DataAccess
             if (ThirdName != null && ThirdName != "")
                 cmd.Parameters.AddWithValue("@ThirdName", ThirdName);
             else
-                cmd.Parameters.AddWithValue("@ThirdNmae", System.DBNull.Value);
+                cmd.Parameters.AddWithValue("@ThirdName", System.DBNull.Value);
 
             cmd.Parameters.AddWithValue("@LastName", LastName);
             cmd.Parameters.AddWithValue("@NationalNo", NationalNo);
@@ -246,7 +246,7 @@ namespace DVLD_DataAccess
             if (ThirdName != null && ThirdName != "")
                 cmd.Parameters.AddWithValue("@ThirdName", ThirdName);
             else
-                cmd.Parameters.AddWithValue("@ThirdNmae", System.DBNull.Value);
+                cmd.Parameters.AddWithValue("@ThirdName", System.DBNull.Value);
 
             cmd.Parameters.AddWithValue("@LastName", LastName);
             cmd.Parameters.AddWithValue("@NationalNo", NationalNo);
@@ -292,7 +292,7 @@ namespace DVLD_DataAccess
             string query =
               @"SELECT People.PersonID, People.NationalNo,
               People.FirstName, People.SecondName, People.ThirdName, People.LastName,
-			  People.DateOfBirth, People.Gendor,  
+			  People.DateOfBirth, People.Gender,  
 				  CASE
                   WHEN People.Gender = 0 THEN 'Male'
 
@@ -320,7 +320,7 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                throw new Exception("Error retrieving data: " + ex.Message);
             }
             finally { conn.Close(); }
             return dt;
