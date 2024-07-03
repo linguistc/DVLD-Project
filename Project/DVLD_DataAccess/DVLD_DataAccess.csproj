@@ -30,11 +30,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  
   <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
-
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,9 +44,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsApplication.cs" />
+    <Compile Include="clsApplicationType.cs" />
     <Compile Include="clsCountryData.cs" />
+    <Compile Include="clsDetainedLicense.cs" />
+    <Compile Include="clsDriver.cs" />
+    <Compile Include="clsInternationalLicense.cs" />
+    <Compile Include="clsLicense.cs" />
+    <Compile Include="clsLicenseClass.cs" />
+    <Compile Include="clsLocalDrivingLicenseApplicationData.cs" />
     <Compile Include="clsPersonData.cs" />
     <Compile Include="clsDataAccessSettings.cs" />
+    <Compile Include="clsTest.cs" />
+    <Compile Include="clsTestAppointment.cs" />
+    <Compile Include="clsTestType.cs" />
+    <Compile Include="clsUserData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
